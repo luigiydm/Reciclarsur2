@@ -45,6 +45,7 @@
     "lodash.throttle": "^4.0.1"
   },
   "scripts": {
+    "compile:sass":"node-sass sass/main.scss css/main.css --watch",
     "test": "node ./node_modules/karma/bin/karma start karma.conf.js",
     "build": "webpack",
     "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
